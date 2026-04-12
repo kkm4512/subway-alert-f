@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- 전동차 몸체 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,40 Q15,38 17,38 H83 Q85,38 85,40 V75 Q85,77 83,77 H17 Q15,77 15,75 Z" />
+
+    <!-- 창문들 -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M20,45 H35 V60 H20 Z M42,45 H57 V60 H42 Z M64,45 H79 V60 H64 Z" />
+
+    <!-- 바퀴 -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M25,75 A5,5 0 1,0 35,75 A5,5 0 1,0 25,75 Z M65,75 A5,5 0 1,0 75,75 A5,5 0 1,0 65,75 Z" />
+
+    <!-- 노란색 알림 원 -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M65,15 A18,18 0 1,0 101,15 A18,18 0 1,0 65,15 Z" />
+
+    <!-- 원 안의 종(벨) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M83,10 Q83,8 81,8 Q79,8 79,10 V12 Q74,13 74,18 V24 H88 V18 Q88,13 83,12 Z M78,25 A5,2 0 1,0 88,25 Z" />
+
+</vector>
