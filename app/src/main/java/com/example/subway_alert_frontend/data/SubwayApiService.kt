@@ -6,6 +6,11 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface SubwayApiService {
+    @GET("subway-search")
+    suspend fun searchStations(
+        @Query("statnNm") query: String
+    ): SubwayInfoResponse
+
     @GET("subway-info")
     suspend fun getStationInfo(
         @Query("statnNm") stationName: String
